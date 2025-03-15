@@ -1780,7 +1780,7 @@ Please go to the homepage of <${this.baseURL}> and press the cloud icon.`);
     contentRating: import_types2.ContentRating.MATURE,
     websiteBaseURL: SITE_DOMAIN,
     sourceTags: [],
-    intents: import_types2.SourceIntents.SETTINGS_UI | import_types2.SourceIntents.HOMEPAGE_SECTIONS | import_types2.SourceIntents.MANGA_CHAPTERS
+    intents: import_types2.SourceIntents.SETTINGS_UI | import_types2.SourceIntents.HOMEPAGE_SECTIONS | import_types2.SourceIntents.MANGA_CHAPTERS | import_types2.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED
   };
   var Natomanga = class extends MangaBox {
     constructor() {
